@@ -1,1 +1,26 @@
-# quicknote
+Quicknote.el
+
+It can be annoying to have to switch beetween documentation and code
+
+* Install
+To install the package you must download quicknote.el and load
+it with (load-file "/path/to/quicnote") I highly reccomend byte-compiling it
+
+* Customization
+This package is trading customiziblity for perfomence
+customizations must be done with editing source
+** Border colour
+To change the border colour go to quicknote.el M-x replace-string RET #00bcff RET now
+type the hex of the colour you want to replace
+
+** Changing keys
+This must be done with the same replace-string method, do not change only the
+the global set keys
+
+* usage
+(setq agendapath "/path/to/agenad") agenda must be called agenda.org)
+'f7' to open agenda
+'f8' to open note file, if note file not defined yet current file
+will be set as the note file
+'M-§' to set a new notefile
+'f-3' to toggle shell
