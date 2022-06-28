@@ -24,3 +24,4 @@ the global set keys
 will be set as the note file
 'M-§' to set a new notefile
 'f-3' to toggle shell
+'ESC' to escape
